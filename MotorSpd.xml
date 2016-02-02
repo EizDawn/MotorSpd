@@ -1,49 +1,49 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="8" inline="false" x="107" y="34">
+  <block type="controls_whileUntil" id="1" inline="false" x="107" y="34">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="61">
+      <block type="sensor_button" id="2">
         <field name="OBJECT">ENTER</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_stop" id="71">
+      <block type="movement_stop" id="3">
         <next>
-          <block type="robot_delay" id="73" inline="true">
+          <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="80">
+              <block type="math_number" id="5">
                 <field name="NUM">2000</field>
               </block>
             </value>
             <next>
-              <block type="movement_leftmotor" id="90" inline="true">
+              <block type="movement_leftmotor" id="6" inline="true">
                 <value name="MOVLEFT">
-                  <block type="math_number" id="91">
+                  <block type="math_number" id="7">
                     <field name="NUM">100</field>
                   </block>
                 </value>
                 <next>
-                  <block type="robot_delay" id="92" inline="true">
+                  <block type="robot_delay" id="8" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="93">
+                      <block type="math_number" id="9">
                         <field name="NUM">2000</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_stop" id="94">
+                      <block type="movement_stop" id="10">
                         <next>
-                          <block type="robot_delay" id="95" inline="true">
+                          <block type="robot_delay" id="11" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="96">
+                              <block type="math_number" id="12">
                                 <field name="NUM">2000</field>
                               </block>
                             </value>
                             <next>
-                              <block type="movement_right" id="111">
+                              <block type="movement_right" id="13">
                                 <next>
-                                  <block type="robot_delay" id="112" inline="true">
+                                  <block type="robot_delay" id="14" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="113">
+                                      <block type="math_number" id="15">
                                         <field name="NUM">2000</field>
                                       </block>
                                     </value>
