@@ -16,10 +16,15 @@
               </block>
             </value>
             <next>
-              <block type="movement_leftmotor" id="6" inline="true">
-                <value name="MOVLEFT">
+              <block type="movement_setmotors" id="35" inline="true">
+                <value name="BOTHMOVLEFT">
                   <block type="math_number" id="7">
                     <field name="NUM">100</field>
+                  </block>
+                </value>
+                <value name="BOTHMOVRIGHT">
+                  <block type="math_number" id="36">
+                    <field name="NUM">-25</field>
                   </block>
                 </value>
                 <next>
